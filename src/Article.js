@@ -5,7 +5,7 @@ function Article({ date, title, image, text }) {
     <article>
       <div className="date">{date}</div>
       <h2>{title}</h2>
-      <img src={image} alt="Fashion picture" />
+      <img src={image} />
       <p>{text}</p>
       <a href="#">Continues...</a>
     </article>
