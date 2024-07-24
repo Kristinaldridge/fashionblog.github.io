@@ -7,7 +7,7 @@ function Article({ date, title, image, text }) {
       <h2>{title}</h2>
       <img src={image} alt=''/>
       <p>{text}</p>
-      <a href="#">Continues...</a>
+      <a href="/">Continues...</a>
     </article>
   );
 }
