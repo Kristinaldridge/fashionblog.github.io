@@ -12,10 +12,13 @@ body {
 
 header, main, footer {
     padding: 1rem 2rem;
+    font-family: sans-serif;
 }
 
 h1 {
     color: tomato;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
 
@@ -34,7 +37,7 @@ nav ul li {
     display: inline;
 }
 
-header nav a {
+nav a {
     color: lightgray;
 }
 
@@ -45,6 +48,7 @@ footer nav a {
 
 main article h2 {
     font-size: 2em;
+    font-family: sans-serif;
 }
 
 main article a {
